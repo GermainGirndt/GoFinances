@@ -1,7 +1,7 @@
 # :dollar: GoFinances
 A complete React.js App for managing your finances :moneybag:
 
-## Preview
+## :mag_right: Preview
 ![preview](https://github.com/GermainPereira/GoFinances/blob/master/preview-2020-07-06%2007-28.gif?raw=true)
 
 
