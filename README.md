@@ -1,4 +1,4 @@
-# :dollar: GoFinances
+# :dollar: GoFinances [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 A complete React.js App for managing your finances :moneybag:
 
 ## :mag_right: Preview
