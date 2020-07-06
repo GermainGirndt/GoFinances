@@ -4,6 +4,8 @@ import { Link } from 'react-router-dom';
 
 import { Container } from './styles';
 
+import { FiChevronRight } from 'react-icons/fi';
+
 import Logo from '../../assets/logo.svg';
 
 interface HeaderProps {
@@ -13,10 +15,17 @@ interface HeaderProps {
 const Header: React.FC<HeaderProps> = ({ size = 'large' }: HeaderProps) => (
   <Container size={size}>
     <header>
-      <img src={Logo} alt="GoFinances" />
+      {
+        <Link to="/">
+          <img src={Logo} alt="GoFinances" />
+        </Link>
+      }
       <nav>
         {
-          // Todo
+          <Link to="/import">
+            Importar
+            <FiChevronRight size={10} />
+          </Link>
         }
       </nav>
     </header>

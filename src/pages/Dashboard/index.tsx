@@ -44,7 +44,7 @@ const Dashboard: React.FC = () => {
 
   useEffect(() => {
     async function loadTransactions(): Promise<void> {
-      const response = await api.get<APIData>('/');
+      const response = await api.get<APIData>('/transactions');
       console.log(response.data);
       const receivedTransactions = await response.data.transactions;
       console.log(receivedTransactions);
