@@ -15,3 +15,7 @@ A **complete React.js App** for managing your finances :moneybag:
 ## :pencil: Possible improvements
 * Implement local storage usage
 * Add a 'export to csv' button 
+
+
+## :bow: Inspired by
+RocketSeat - GoStack Bootcamp
